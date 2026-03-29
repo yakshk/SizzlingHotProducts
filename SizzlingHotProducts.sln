@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SizzlingHotProducts.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "Infrastructure.Tests\Infrastructure.Tests.csproj", "{14655452-65C5-4C3A-8A6F-385CB3FE6DFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Tests", "Application.Tests\Application.Tests.csproj", "{D16986E2-D737-4F74-80FB-806E9B514458}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{14655452-65C5-4C3A-8A6F-385CB3FE6DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14655452-65C5-4C3A-8A6F-385CB3FE6DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14655452-65C5-4C3A-8A6F-385CB3FE6DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16986E2-D737-4F74-80FB-806E9B514458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16986E2-D737-4F74-80FB-806E9B514458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16986E2-D737-4F74-80FB-806E9B514458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16986E2-D737-4F74-80FB-806E9B514458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
