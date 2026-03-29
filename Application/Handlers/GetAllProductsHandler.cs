@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.Handlers;
 
-public class GetProductsHandler(IProductsRepository repo) : IRequestHandler<GetAllProductsRequest, List<ProductDto>>
+public class GetAllProductsHandler(IProductsRepository repo) : IRequestHandler<GetAllProductsRequest, List<ProductDto>>
 {
     public async Task<List<ProductDto>> Handle(GetAllProductsRequest request, CancellationToken cancellationToken)
     {
