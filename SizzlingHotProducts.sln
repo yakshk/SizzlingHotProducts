@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SizzlingHotProductsApi", "SizzlingHotProductsApi\SizzlingHotProductsApi.csproj", "{50047881-9173-4AFC-B6EE-2C994DA5FEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SizzlingHotProducts.Tests", "SizzlingHotProducts.Tests\SizzlingHotProducts.Tests.csproj", "{ED23C1AB-74D8-41E1-8606-98DE15A46918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{50047881-9173-4AFC-B6EE-2C994DA5FEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50047881-9173-4AFC-B6EE-2C994DA5FEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50047881-9173-4AFC-B6EE-2C994DA5FEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED23C1AB-74D8-41E1-8606-98DE15A46918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED23C1AB-74D8-41E1-8606-98DE15A46918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED23C1AB-74D8-41E1-8606-98DE15A46918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED23C1AB-74D8-41E1-8606-98DE15A46918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
