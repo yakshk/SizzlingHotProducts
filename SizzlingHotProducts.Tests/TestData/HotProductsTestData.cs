@@ -32,4 +32,13 @@ public static class HotProductsTestData
             ]
         };
     }
+
+    public static ProductDto SampleProductDto()
+    {
+        return new ProductDto
+        {
+            Id = "P1",
+            Name = "Cool product",
+        };
+    }
 }
